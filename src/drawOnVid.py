@@ -4,7 +4,7 @@ from ffpyplayer.player import MediaPlayer
 import time
 
 # Open the video file using OpenCV's VideoCapture function
-path = "data/input.mp4"
+path = "data/eyes.mp4"
 video = cv2.VideoCapture(path)
 player = MediaPlayer(path)
 
