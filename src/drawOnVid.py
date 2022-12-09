@@ -4,7 +4,7 @@ from ffpyplayer.player import MediaPlayer
 import time
 
 # Open the video file using OpenCV's VideoCapture function
-path = "data/eyes.mp4"
+path = "data/no matter how hard i try, they wont leave.mp4"
 video = cv2.VideoCapture(path)
 player = MediaPlayer(path)
 
@@ -77,7 +77,7 @@ while video.isOpened():
     cv2.setMouseCallback("Frame", mouse_callback)
 
     # Use a long delay in the waitKey function to keep the video playing at the correct speed
-    if cv2.waitKey(30) & 0xFF == ord('q'):
+    if cv2.waitKey(35) & 0xFF == ord('q'):
         break
 
 # Clean up
