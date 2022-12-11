@@ -4,7 +4,7 @@ from ffpyplayer.player import MediaPlayer
 import time
 
 # Open the video file using OpenCV's VideoCapture function
-path = "data/no matter how hard i try, they wont leave.mp4"
+path = "data/video.mp4"
 video = cv2.VideoCapture(path)
 player = MediaPlayer(path)
 
